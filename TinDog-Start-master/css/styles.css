@@ -1,0 +1,203 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+
+    font-family: 'Montserrat-bold', sans-serif;
+
+}
+
+p {
+    color: #3f3f3f;
+}
+
+/* Heading */
+
+.big-heading {
+
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.7rem;
+    line-height: 1.5;
+
+}
+
+.section-heading { 
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#title { 
+
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+
+.container-fluid{ 
+    padding: 3% 15% 6%;
+}
+
+/* Navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+/* Download buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+
+
+/* Features */
+
+#features { 
+ 
+    position: relative;
+    z-index: 1;
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.feature-box { 
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.feautre-title {
+    font-size: 1.5rem;
+}
+
+/* Testimonials section */
+
+#testimonials {
+    
+  
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press { 
+    background-color: #ef8172;
+
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing section */
+
+#pricing { 
+    padding: 4.5rem;
+  
+}
+
+
+.pricing-column {
+    padding: 3% 2%;
+
+
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+
+    }
+
+}
+
+
+/* Bottom sections  */
+
+#cta {
+    background-color: #ff4c68;
+
+    color: white;
+    padding: 7% 15%;
+
+}
+
+.cta-buttons {
+    margin: 2%;
+}
+
+/* Footer section */
+
+#footer {
+    padding: 5%;
+    background-color: #fff;
+}
+
+.footer-icon {
+    margin: 2% 1%;
+}
+
+p.footer-text { 
+    font-size: 1rem;
+}
